@@ -7,10 +7,9 @@ Terminal needs to be opened as administrator.
 * check the status of the cluster: `minikube status`
 
 Install nginx ingress: `kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.6.4/deploy/static/provider/cloud/deploy.yaml` \
-Open external IP: `minikube tunnel` \
-
+Open external IP: `minikube tunnel`.
 ##Service Deployment
-* `kubectl apply -f k8s`
+Apply all your deployments and service from k8s folder : `kubectl apply -f k8s`
 
 If you want to open your application with host name `app.example.com`, you should provide alias for this host name in `hosts`config \
 Also you can get access to your application via IP address `127.0.0.1`
