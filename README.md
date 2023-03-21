@@ -7,7 +7,8 @@ Terminal needs to be opened as administrator.
 * check the status of the cluster: `minikube status`
 
 Install nginx ingress: `kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.6.4/deploy/static/provider/cloud/deploy.yaml` \
-Open external IP: `minikube tunnel`
+Open external IP: `minikube tunnel` \
+
 ##Service Deployment
 * `kubectl apply -f k8s`
 
